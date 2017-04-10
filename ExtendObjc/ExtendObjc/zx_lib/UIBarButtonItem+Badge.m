@@ -8,6 +8,8 @@
 
 #import "UIBarButtonItem+Badge.h"
 #import "UIView+Badge.h"
+#import "ZxExtension.h"
+#import <ReactiveObjC.h>
 
 @implementation UIBarButtonItem (Badge)
 

@@ -16,8 +16,6 @@
 #endif
 
 
-#import "Masonry.h"
-
 #import "UIColor+Hex.h"
 
 #import "UIImage+ZXExtension.h"
@@ -26,3 +24,5 @@
 #import "UIView+ZXExtension.h"
 
 #import "UIScreen+ZXExtension.h"
+
+#import <Masonry.h>
