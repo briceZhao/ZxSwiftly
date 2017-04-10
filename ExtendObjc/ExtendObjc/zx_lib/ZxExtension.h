@@ -19,11 +19,10 @@
 #import "Masonry.h"
 
 #import "UIColor+Hex.h"
-#import "UIColor+BaseStyle.h"
-
-#import "UIFont+BaseStyle.h"
 
 #import "UIImage+ZXExtension.h"
 
 #import "UIView+SeparatorLine.h"
 #import "UIView+ZXExtension.h"
+
+#import "UIScreen+ZXExtension.h"

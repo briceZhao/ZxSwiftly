@@ -7,6 +7,7 @@
 //
 
 #import "UIImage+ZXExtension.h"
+#import "ZxExtension.h"
 
 @implementation UIImage (ZXExtension)
 
@@ -41,6 +42,38 @@
     
     return newImage;
 }
+
+
+- (UIImage *)zx_cornerAddRadius:(CGFloat)radius andSize:(CGSize)size borderColor:(UIColor *)color
+{
+    CGRect rect = CGRectMake(0, 0, size.width, size.height);
+    
+    UIGraphicsBeginImageContextWithOptions(size, NO, [UIScreen scale]);
+    
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    
+    UIBezierPath *bezier = [UIBezierPath bezierPathWithRoundedRect:rect byRoundingCorners:UIRectCornerAllCorners cornerRadii:CGSizeMake(radius, radius)];
+    [bezier setLineWidth:1.0 / [UIScreen scale]];
+    
+    CGContextAddPath(context, bezier.CGPath);
+    
+    CGContextClip(context);
+    
+    [self drawInRect:rect];
+    [color setStroke];
+    
+    [bezier stroke];
+    
+    CGContextDrawPath(context, kCGPathFillStroke);
+    
+    UIImage * newImage = UIGraphicsGetImageFromCurrentImageContext();
+    
+    UIGraphicsEndImageContext();
+    
+    return newImage;
+}
+
+
 
 - (UIImage *)zx_centerResizingImage
 {
