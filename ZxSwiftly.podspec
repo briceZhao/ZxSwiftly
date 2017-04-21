@@ -14,10 +14,15 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "9.0"
   s.platform     = :ios
   s.source       = { :git => "https://github.com/briceZhao/ZxSwiftly.git", :tag => "#{s.version}" }
-  s.source_files  = "ZxSwiftly/*"
+  s.source_files  = 'ZxSwiftly/*'
   s.requires_arc = true 
   s.framework  = "UIKit"
 
   # s.public_header_files = "Classes/**/*.h"
+  # s.frameworks = "SomeFramework", "AnotherFramework"
+  # s.library   = "iconv"
+  # s.libraries = "iconv", "xml2"
+  # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+  # s.dependency "JSONKit", "~> 1.4"
 
 end
