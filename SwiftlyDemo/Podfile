@@ -1,0 +1,12 @@
+# Uncomment the next line to define a global platform for your project
+
+
+target 'SwiftlyDemo' do
+
+  # Pods for SwiftlyDemo
+    platform :ios, '9.0'
+
+    pod 'Masonry'
+    pod 'ReactiveObjC'
+
+end

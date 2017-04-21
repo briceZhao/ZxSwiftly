@@ -1,2 +1,2 @@
-# swiftly
-Develop extension library
+# Swiftly
+Extension of Objective-C library
