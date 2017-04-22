@@ -5,6 +5,6 @@ target 'SwiftlyDemo' do
 
     pod 'Masonry'
     pod 'ReactiveObjC'
-    pod 'ZxSwiftly'
+    pod 'ZxSwiftly', '~> 1.0.3'
     
 end
