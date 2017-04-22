@@ -13,15 +13,6 @@
 		6579AE091EAA1E96003A8A2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6579AE071EAA1E96003A8A2C /* Main.storyboard */; };
 		6579AE0B1EAA1E96003A8A2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6579AE0A1EAA1E96003A8A2C /* Assets.xcassets */; };
 		6579AE0E1EAA1E96003A8A2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6579AE0C1EAA1E96003A8A2C /* LaunchScreen.storyboard */; };
-		6579AE291EAA2033003A8A2C /* UIBarButtonItem+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 6579AE171EAA2033003A8A2C /* UIBarButtonItem+Badge.m */; };
-		6579AE2A1EAA2033003A8A2C /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 6579AE191EAA2033003A8A2C /* UIColor+Hex.m */; };
-		6579AE2B1EAA2033003A8A2C /* UIImage+ZXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6579AE1B1EAA2033003A8A2C /* UIImage+ZXExtension.m */; };
-		6579AE2C1EAA2033003A8A2C /* UINavigationController+ZXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6579AE1D1EAA2033003A8A2C /* UINavigationController+ZXExtension.m */; };
-		6579AE2D1EAA2033003A8A2C /* UIScreen+ZXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6579AE1F1EAA2033003A8A2C /* UIScreen+ZXExtension.m */; };
-		6579AE2E1EAA2033003A8A2C /* UIView+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 6579AE211EAA2033003A8A2C /* UIView+Badge.m */; };
-		6579AE2F1EAA2033003A8A2C /* UIView+SeparatorLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6579AE231EAA2033003A8A2C /* UIView+SeparatorLine.m */; };
-		6579AE301EAA2033003A8A2C /* UIView+ZXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6579AE251EAA2033003A8A2C /* UIView+ZXExtension.m */; };
-		6579AE311EAA2033003A8A2C /* UIViewController+ZXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6579AE271EAA2033003A8A2C /* UIViewController+ZXExtension.m */; };
 		870A670231A37368EB987A37 /* libPods-SwiftlyDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBC2F6FFA8401BEB8FCB488A /* libPods-SwiftlyDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -38,25 +29,6 @@
 		6579AE0A1EAA1E96003A8A2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6579AE0D1EAA1E96003A8A2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6579AE0F1EAA1E96003A8A2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6579AE161EAA2033003A8A2C /* UIBarButtonItem+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Badge.h"; sourceTree = "<group>"; };
-		6579AE171EAA2033003A8A2C /* UIBarButtonItem+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Badge.m"; sourceTree = "<group>"; };
-		6579AE181EAA2033003A8A2C /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
-		6579AE191EAA2033003A8A2C /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
-		6579AE1A1EAA2033003A8A2C /* UIImage+ZXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZXExtension.h"; sourceTree = "<group>"; };
-		6579AE1B1EAA2033003A8A2C /* UIImage+ZXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZXExtension.m"; sourceTree = "<group>"; };
-		6579AE1C1EAA2033003A8A2C /* UINavigationController+ZXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+ZXExtension.h"; sourceTree = "<group>"; };
-		6579AE1D1EAA2033003A8A2C /* UINavigationController+ZXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ZXExtension.m"; sourceTree = "<group>"; };
-		6579AE1E1EAA2033003A8A2C /* UIScreen+ZXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+ZXExtension.h"; sourceTree = "<group>"; };
-		6579AE1F1EAA2033003A8A2C /* UIScreen+ZXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+ZXExtension.m"; sourceTree = "<group>"; };
-		6579AE201EAA2033003A8A2C /* UIView+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Badge.h"; sourceTree = "<group>"; };
-		6579AE211EAA2033003A8A2C /* UIView+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Badge.m"; sourceTree = "<group>"; };
-		6579AE221EAA2033003A8A2C /* UIView+SeparatorLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SeparatorLine.h"; sourceTree = "<group>"; };
-		6579AE231EAA2033003A8A2C /* UIView+SeparatorLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SeparatorLine.m"; sourceTree = "<group>"; };
-		6579AE241EAA2033003A8A2C /* UIView+ZXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZXExtension.h"; sourceTree = "<group>"; };
-		6579AE251EAA2033003A8A2C /* UIView+ZXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZXExtension.m"; sourceTree = "<group>"; };
-		6579AE261EAA2033003A8A2C /* UIViewController+ZXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZXExtension.h"; sourceTree = "<group>"; };
-		6579AE271EAA2033003A8A2C /* UIViewController+ZXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZXExtension.m"; sourceTree = "<group>"; };
-		6579AE281EAA2033003A8A2C /* ZxExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZxExtension.h; sourceTree = "<group>"; };
 		DBC2F6FFA8401BEB8FCB488A /* libPods-SwiftlyDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftlyDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -97,7 +69,6 @@
 				6579AE021EAA1E96003A8A2C /* AppDelegate.m */,
 				6579AE041EAA1E96003A8A2C /* ViewController.h */,
 				6579AE051EAA1E96003A8A2C /* ViewController.m */,
-				6579AE151EAA2033003A8A2C /* Swiftly */,
 				6579AE071EAA1E96003A8A2C /* Main.storyboard */,
 				6579AE0A1EAA1E96003A8A2C /* Assets.xcassets */,
 				6579AE0C1EAA1E96003A8A2C /* LaunchScreen.storyboard */,
@@ -113,32 +84,6 @@
 				6579ADFF1EAA1E96003A8A2C /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		6579AE151EAA2033003A8A2C /* Swiftly */ = {
-			isa = PBXGroup;
-			children = (
-				6579AE161EAA2033003A8A2C /* UIBarButtonItem+Badge.h */,
-				6579AE171EAA2033003A8A2C /* UIBarButtonItem+Badge.m */,
-				6579AE181EAA2033003A8A2C /* UIColor+Hex.h */,
-				6579AE191EAA2033003A8A2C /* UIColor+Hex.m */,
-				6579AE1A1EAA2033003A8A2C /* UIImage+ZXExtension.h */,
-				6579AE1B1EAA2033003A8A2C /* UIImage+ZXExtension.m */,
-				6579AE1C1EAA2033003A8A2C /* UINavigationController+ZXExtension.h */,
-				6579AE1D1EAA2033003A8A2C /* UINavigationController+ZXExtension.m */,
-				6579AE1E1EAA2033003A8A2C /* UIScreen+ZXExtension.h */,
-				6579AE1F1EAA2033003A8A2C /* UIScreen+ZXExtension.m */,
-				6579AE201EAA2033003A8A2C /* UIView+Badge.h */,
-				6579AE211EAA2033003A8A2C /* UIView+Badge.m */,
-				6579AE221EAA2033003A8A2C /* UIView+SeparatorLine.h */,
-				6579AE231EAA2033003A8A2C /* UIView+SeparatorLine.m */,
-				6579AE241EAA2033003A8A2C /* UIView+ZXExtension.h */,
-				6579AE251EAA2033003A8A2C /* UIView+ZXExtension.m */,
-				6579AE261EAA2033003A8A2C /* UIViewController+ZXExtension.h */,
-				6579AE271EAA2033003A8A2C /* UIViewController+ZXExtension.m */,
-				6579AE281EAA2033003A8A2C /* ZxExtension.h */,
-			);
-			path = Swiftly;
 			sourceTree = "<group>";
 		};
 		6DB9AFAF0FA466FCC52D3E39 /* Frameworks */ = {
@@ -282,16 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6579AE061EAA1E96003A8A2C /* ViewController.m in Sources */,
-				6579AE2D1EAA2033003A8A2C /* UIScreen+ZXExtension.m in Sources */,
-				6579AE2A1EAA2033003A8A2C /* UIColor+Hex.m in Sources */,
-				6579AE2C1EAA2033003A8A2C /* UINavigationController+ZXExtension.m in Sources */,
-				6579AE2F1EAA2033003A8A2C /* UIView+SeparatorLine.m in Sources */,
-				6579AE2E1EAA2033003A8A2C /* UIView+Badge.m in Sources */,
 				6579AE031EAA1E96003A8A2C /* AppDelegate.m in Sources */,
-				6579AE2B1EAA2033003A8A2C /* UIImage+ZXExtension.m in Sources */,
-				6579AE311EAA2033003A8A2C /* UIViewController+ZXExtension.m in Sources */,
-				6579AE301EAA2033003A8A2C /* UIView+ZXExtension.m in Sources */,
-				6579AE291EAA2033003A8A2C /* UIBarButtonItem+Badge.m in Sources */,
 				6579AE001EAA1E96003A8A2C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +351,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4TRSC3PGTH;
 				INFOPLIST_FILE = SwiftlyDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.brice.SwiftlyDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,6 +365,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4TRSC3PGTH;
 				INFOPLIST_FILE = SwiftlyDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.brice.SwiftlyDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

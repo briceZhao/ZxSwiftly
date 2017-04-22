@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ZxSwiftly"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "Extension of Objective-C library."
   s.description  = <<-DESC
 	This is a extension of Objective-C, which can develop swiftly.
@@ -12,7 +12,6 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "briceZhao" => "zx_brice@126.com" }
   s.platform     = :ios, "9.0"
-  s.platform     = :ios
   s.source       = { :git => "https://github.com/briceZhao/ZxSwiftly.git", :tag => "#{s.version}" }
   s.source_files  = 'ZxSwiftly/*.{h,m}'
   s.requires_arc = true 

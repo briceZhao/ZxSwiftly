@@ -10,8 +10,8 @@
 #define MAS_SHORTHAND_GLOBALS
 
 #import "ViewController.h"
-#import "ZxExtension.h"
-#import "UIViewController+ZXExtension.h"
+#import <ZxExtension.h>
+#import <UIViewController+ZXExtension.h>
 #import <Masonry.h>
 
 @interface ViewController ()<UITableViewDataSource, UITableViewDelegate>
