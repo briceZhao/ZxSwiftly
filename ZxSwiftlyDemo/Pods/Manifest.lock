@@ -6,13 +6,13 @@ PODS:
 DEPENDENCIES:
   - Masonry
   - ReactiveObjC
-  - ZxSwiftly
+  - ZxSwiftly (~> 1.0.1)
 
 SPEC CHECKSUMS:
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   ReactiveObjC: ce79989e8684b9086b5f8d0c74bc7b81a8729c9e
   ZxSwiftly: 4e4ad39c4df534d1eae117e701c0dbe1b37d4dfb
 
-PODFILE CHECKSUM: 5372fd8c3e537f2353664a2fbe25bb968f8174f2
+PODFILE CHECKSUM: 612d2e410fc31ec9ba98a51423583dda6deeebff
 
 COCOAPODS: 1.2.1
