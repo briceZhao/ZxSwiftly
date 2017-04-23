@@ -16,6 +16,8 @@
 
 + (float)scale;
 
++ (CGRect)bounds;
+
 + (BOOL)isRetina;
 
 @end

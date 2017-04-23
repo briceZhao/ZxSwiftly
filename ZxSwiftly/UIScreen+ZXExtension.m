@@ -25,6 +25,11 @@
     return [UIScreen mainScreen].scale;
 }
 
++ (CGRect)bounds
+{
+    return [UIScreen mainScreen].bounds;
+}
+
 + (BOOL)isRetina
 {
     return [UIScreen mainScreen].scale >= 2;
