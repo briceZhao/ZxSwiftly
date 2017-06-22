@@ -16,8 +16,29 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    [self configureNavigationBarAppearance];
+    
     return YES;
+}
+
+
+- (void)configureNavigationBarAppearance
+{
+    [UIBarButtonItem appearance].tintColor = [UIColor colorWithRed:0.31 green:0.29 blue:0.27 alpha:1.00];
+    [[UIBarButtonItem appearance] setTitleTextAttributes:
+     @{
+       NSForegroundColorAttributeName: [UIColor darkTextColor],
+       NSFontAttributeName: [UIFont systemFontOfSize:14.f]
+       } forState:UIControlStateNormal];
+    
+    [UINavigationBar appearance].tintColor = [UIColor colorWithRed:0.31 green:0.29 blue:0.27 alpha:1.00];
+    [[UINavigationBar appearance] setTitleTextAttributes:
+     @{
+       NSForegroundColorAttributeName: [UIColor darkTextColor],
+       NSFontAttributeName: [UIFont systemFontOfSize:16.f]
+       }];
+    
 }
 
 
